@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.use("/api/v1/users", userRouter);
 
-app.listen(8800, () => {
-  console.log("Server is running on port 8800");
+app.listen(8900, () => {
+  console.log("Server is running on port 8900");
 
 });
